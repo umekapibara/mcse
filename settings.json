@@ -1,0 +1,68 @@
+{
+	"settings": [
+		{
+			"id": "LevelName",
+			"type": "string",
+			"parent": "",
+			"text": "ワールドの名前",
+			"help": "ワールドの名前を設定します。"
+		}、
+		{
+			"id": "eduOffer",
+			"type": "bool",
+			"parent": "",
+			"text": "教育版ワールド",
+			"help": "ワールドを教育版のワールドとして設定します。"
+		}、
+		{
+			"id": "data_driven_biomes",
+			"type": "bool",
+			"parent": "experiments",
+			"text": "オリジナルバイオーム",
+			"help": "addonでオリジナルのバイオームを追加できるようにします。"
+		}、
+		{
+			"id": "data_driven_items",
+			"type": "bool",
+			"parent": "experiments",
+			"text": "ホリデークリエイター",
+			"help": "addonでオリジナルのアイテムやブロックを追加できるようにします。"
+		}、
+		{
+			"id": "gametest",
+			"type": "bool",
+			"parent": "experiments",
+			"text": "スクリプトAPI",
+			"help": "addonでスクリプトAPIの使用を許可します。"
+		}、
+		{
+			"id": "upcoming_creator_features",
+			"type": "bool",
+			"parent": "experiments",
+			"text": "今後のクリエイター機能",
+			"help": "addonで試験的要素のqueryなどの使用を許可します。"
+		}、
+		{
+			"id": "villager_trades_rebalance",
+			"type": "bool",
+			"parent": "experiments",
+			"text": "村人の取引バランスの改善",
+			"help": "村人の交易での取引バランスを改善します。"
+		}、
+		{
+			"id": "focus_target_camera",
+			"type": "bool",
+			"parent": "experiments",
+			"text": "カメラプリセット:フォーカスカメラ",
+			"help": "カメラコマンドで使用可能なカメラプリセット「フォーカスカメラ」を追加します。"
+		}、
+		{
+			"id": "third_person_cameras",
+			"type": "bool",
+			"parent": "experiments",
+			"text": "カメラプリセット:新しい3人称カメラ",
+			"help": "カメラコマンドで使用可能なカメラプリセット「新しい3人称カメラ」を追加します。"
+		}
+	],
+	"folder": "%HOMEPATH%\AppData\Local\Packages\Microsoft.MinecraftEducationEdition_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds"
+}
